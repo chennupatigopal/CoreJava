@@ -37,11 +37,11 @@ public class MergeTwoSortedLists {
 
 		System.out.print("\nMerged List:");
 
-		/*
-		 * ListNode result = mergeTwoLists(l1head, l2head); while (result != null) {
-		 * System.out.print(result.val); if (result.next != null) {
-		 * System.out.print("->"); } result = result.next; }
-		 */
+		
+		  ListNode result = mergeTwoLists(l1head, l2head); while (result != null) {
+		  System.out.print(result.val); if (result.next != null) {
+		  System.out.print("->"); } result = result.next; }
+		 
 
 		/*
 		 * ListNode l3 = new ListNode(5); ListNode l4 = new ListNode(1, new ListNode(2,
